@@ -1,0 +1,20 @@
+{
+    "name": "yahtzee",
+    "description": "Kata Yahtzee from Coding Dojo Handbook",
+    "autoload": {
+        "psr-4": {
+            "Yahtzee\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "require": {
+        "spatie/enum": "^3.0"
+    }
+}
